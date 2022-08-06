@@ -1,5 +1,6 @@
 #!/usr/bin/env node
-'use strict';
+
+// eslint-disable-next-line import/extensions
 import greetings from '../src/cli.js';
 
 greetings();

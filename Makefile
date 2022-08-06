@@ -2,7 +2,10 @@ install:
 		npm ci
 
 brain-games:
-			node bin/braine-games.js
+		node bin/braine-games.js
 
 publish:
 		npm publish --dry-run
+
+make lint:
+	 	npx eslint .
